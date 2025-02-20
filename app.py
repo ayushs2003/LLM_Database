@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyD0t4ndgQ6hmOy_aYm_I6za-sDDiqdhOME")  # Replace with your actual API key
+genai.configure(api_key="#########")  # Replace with your actual API key
 
 # Function to generate an SQL query from English input using Gemini Pro
 def generate_sql_query(prompt):
